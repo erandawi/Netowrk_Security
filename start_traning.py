@@ -9,7 +9,8 @@ from networksecurity.pipeline.traning_pipeline import TraningPipeline
 
 def start_training():
     try:
-        pass
+        model_traning = TraningPipeline()
+        model_traning.run_pipeline()
     except Exception as e:
         raise NetworkSecurityException(e, sys)
 
