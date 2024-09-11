@@ -13,17 +13,13 @@ class DataTransformationArtifact:
     pass
 
 @dataclass
-class ModelTrainerArtifact:
+class ModelTranierArtifact:
     pass
 
 @dataclass
 class ModelEvaluationArtifact:
     pass
-
 @dataclass
 class ModelPusherArtifact:
     pass
 
-@dataclass
-class ClassficationMetricArtifact:
-    pass
