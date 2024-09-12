@@ -18,7 +18,7 @@ class DataTransformationArtifact:
 
 
 @dataclass
-class ModelTranierArtifact:
+class ModelTrainerArtifact:
     pass
 
 

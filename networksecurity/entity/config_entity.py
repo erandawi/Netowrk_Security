@@ -1,6 +1,6 @@
 from datetime import datetime
 import os
-from networksecurity.constant import traning_pipeline
+from networksecurity.constant import training_pipeline
 
 print(training_pipeline.PIPELINE_NAME)
 print(training_pipeline.ARTIFACT_DIR)
@@ -37,7 +37,7 @@ class DataIngestionConfig:
             training_pipeline.TEST_FILE_NAME,
         )
         self.train_test_split_ratio: float = (
-            training_pipeline.DATA_INGESTION_TRAIN_TEST_SPLIT_RATION
+            training_pipeline.DATA_INGESTION_TRAIN_TEST_SPLIT_RATTION
         )
         self.collection_name: str = training_pipeline.DATA_INGESTION_COLLECTION_NAME
         self.database_name: str = training_pipeline.DATA_INGESTION_DATABASE_NAME
@@ -55,6 +55,11 @@ class DataTransformationConfig:
 
 
 class ModelTrainerConfig:
+    def __init__(self):
+        pass
+
+
+class ModelEvaluationConfig:
     def __init__(self):
         pass
 

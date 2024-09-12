@@ -13,7 +13,7 @@ ARTIFACT_DIR: str = "Artifacts"
 FILE_NAME: str = "NetworkData.csv"
 
 TRAIN_FILE_NAME: str = "train.csv"
-TEST_FILE_NAME: str ="test.csv"
+TEST_FILE_NAME: str = "test.csv"
 
 PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 MODEL_FILE_NAME = "model.pkl"
