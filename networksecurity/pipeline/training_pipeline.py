@@ -30,7 +30,7 @@ from networksecurity.entity.artifact_entity import (
 )
 
 
-class TraningPipeline:
+class TrainingPipeline:
     def __init__(self):
         pass
 

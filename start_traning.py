@@ -4,7 +4,7 @@ import sys
 from networksecurity.expection.exception import NetworkSecurityException
 from networksecurity.logger.logger import logging
 
-from networksecurity.pipeline.traning_pipeline import TraningPipeline
+from networksecurity.pipeline.training_pipeline import TraningPipeline
 
 
 def start_training():
